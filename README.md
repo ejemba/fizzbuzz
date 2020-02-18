@@ -1,4 +1,5 @@
-# Introduction
+# The Problem
+## Introduction
 The original fizz-buzz consists in writing all numbers from 1 to 100,
 and just replacing all multiples of 3 by "fizz", all multiples of 5 by
 "buzz", and all multiples of 15 by "fizzbuzz".
@@ -6,7 +7,7 @@ and just replacing all multiples of 3 by "fizz", all multiples of 5 by
 The output would look like this: 
 - "1,2,fizz,4,buzz,fizz,7,8,fizz,buzz,11,fizz,13,14,fizzbuzz,16,...". 
 
-# Goal
+## Goal
 
 Your goal is to implement a web server that will expose a REST API endpoint that: 
 
@@ -20,9 +21,16 @@ The server needs to be:
 - Ready for production
 - Easy to maintain by other developers 
 
-# Bonus question 
+## Bonus question 
 
 - Add a statistics endpoint allowing users to know what the most frequent request has been. This endpoint should:
 - Accept no parameter
 - Return the parameters corresponding to the most used request, as well as the number of hits for this request
+
+# The Solution
+
+## TLDR
+
+`./e2e.sh`
+
 
