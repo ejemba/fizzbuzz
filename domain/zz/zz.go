@@ -37,7 +37,6 @@ func (z *zz) Modulo() int {
 	return z.modulo
 }
 
-
 type ZzService interface {
 	Execute(input int) string
 	Zz() Zz
